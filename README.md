@@ -15,7 +15,7 @@ It uses `window.fetch` or `XMLHttpRequest` (if `window.fetch` is not supported).
   * ```fetcher.put(options, callback)```
   * ```fetcher.post(options, callback)```
 
-* obj = object that contains mandatory and optional attributes
+* options = object that contains mandatory and optional attributes
   * Mandatory:
   ```
   {
